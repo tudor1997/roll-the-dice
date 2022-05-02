@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dice</title>
+</head>
+<body>
+    <header>
+        <h1>Roll the Dice</h1>
+        <div class="success">Player Won!</div>
+    </header>
+    <form class="alert alertOne">
+       <div class="input-group">
+           <label for="name">Change Player Name</label>
+           <input type="text" class="nameChange nameChangeOne">
+       </div>
+       <input type="submit" class="submit submitOne">
+    </form>
+    <form class="alert alertTwo">
+        <div class="input-group">
+            <label for="name">Change Player Name</label>
+            <input type="text" class="nameChange nameChangeTwo">
+        </div>
+        <input type="submit" class="submit submitTwo">
+     </form>
+    <section class="container">
+        <div class="dicees">
+            <article class="dice diceOne">
+              
+                <div class="dice-header">
+                    <h2 class="name playerOne">Player One</h2>
+                    <button class="rename renamePlayerOne">Rename</button>
+                </div>
+                <div class="face">
+                    <img src="./images/dice1.png" alt="">
+                </div>
+            </article>
+        
+        <article class="dice diceTwo">
+            <div class="dice-header">
+                <h2 class="name playerTwo">Player Two</h2>
+                <button class="rename renamePlayerTwo">Rename</button>
+            </div>
+            <div class="face">
+                <img src="./images/dice1.png" alt="">
+            </div>
+           
+        </article>
+        </div>
+
+    <button class="roll">Roll</button>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
